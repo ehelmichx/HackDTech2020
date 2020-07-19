@@ -12,7 +12,7 @@ class CustomPageViewController: UIPageViewController, UIPageViewControllerDataSo
     
     lazy var subViewControllers: [UIViewController] = {
         return [
-            self.newVC(viewController: "ViewController"), self.newVC(viewController: "ViewController1"), self.newVC(viewController: "ViewController2"), self.newVC(viewController: "ViewController3"), self.newVC(viewController: "ViewController4"), self.newVC(viewController: "CustomTabBarController")
+            self.newVC(viewController: "ViewController"), self.newVC(viewController: "ViewController1"), self.newVC(viewController: "ViewController2"), self.newVC(viewController: "ViewController3"), self.newVC(viewController: "ViewController4")
         ]
     }()
     
