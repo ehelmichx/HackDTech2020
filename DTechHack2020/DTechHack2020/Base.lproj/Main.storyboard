@@ -143,53 +143,104 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RIy-4R-acr">
-                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1dt-r2-j8k">
-                                        <rect key="frame" x="0.0" y="80" width="375" height="137"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gKk-zz-Znv">
-                                        <rect key="frame" x="10" y="20" width="355" height="534"/>
-                                        <color key="backgroundColor" red="0.89411764709999997" green="0.83921568629999999" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jST-Kc-qxa">
+                                <rect key="frame" x="16" y="73" width="131" height="36"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Featured">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="31" name="Helvetica-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="girl1" translatesAutoresizingMaskIntoConstraints="NO" id="ntH-DG-jgR">
+                                <rect key="frame" x="0.0" y="123" width="375" height="243"/>
+                                <color key="backgroundColor" name="tan"/>
                                 <constraints>
-                                    <constraint firstItem="gKk-zz-Znv" firstAttribute="top" secondItem="SGQ-Im-WNR" secondAttribute="top" constant="20" id="14v-TG-ZEy"/>
-                                    <constraint firstItem="1dt-r2-j8k" firstAttribute="top" secondItem="RIy-4R-acr" secondAttribute="top" constant="80" id="5W3-d0-rOW"/>
-                                    <constraint firstItem="1dt-r2-j8k" firstAttribute="width" secondItem="RIy-4R-acr" secondAttribute="width" id="83d-4L-ego"/>
-                                    <constraint firstItem="1dt-r2-j8k" firstAttribute="leading" secondItem="RIy-4R-acr" secondAttribute="leading" id="9jC-Lq-NPk"/>
-                                    <constraint firstAttribute="trailing" secondItem="1dt-r2-j8k" secondAttribute="trailing" id="NSh-dE-uqS"/>
-                                    <constraint firstAttribute="width" constant="375" id="QCx-3d-WgQ"/>
-                                    <constraint firstItem="gKk-zz-Znv" firstAttribute="leading" secondItem="SGQ-Im-WNR" secondAttribute="leading" constant="10" id="WwZ-lc-2ZK"/>
-                                    <constraint firstAttribute="height" constant="574" id="etH-H7-fR9"/>
-                                    <constraint firstItem="1dt-r2-j8k" firstAttribute="bottom" secondItem="ajk-hY-JbX" secondAttribute="bottom" constant="217" id="kKc-hC-7hE"/>
-                                    <constraint firstAttribute="bottom" secondItem="1dt-r2-j8k" secondAttribute="bottom" constant="357" id="l0i-8k-4W1"/>
-                                    <constraint firstItem="SGQ-Im-WNR" firstAttribute="trailing" secondItem="gKk-zz-Znv" secondAttribute="trailing" constant="10" id="xZE-os-V3Y"/>
-                                    <constraint firstItem="SGQ-Im-WNR" firstAttribute="bottom" secondItem="gKk-zz-Znv" secondAttribute="bottom" constant="20" id="yzR-tN-lkQ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="205" id="ymI-yM-cH4"/>
                                 </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="ajk-hY-JbX"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="SGQ-Im-WNR"/>
-                            </scrollView>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoD-GS-f3y">
+                                <rect key="frame" x="16" y="379" width="343" height="45"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Being Assertive: Reduce Stress, communicate better.">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
+                                            <font key="NSOriginalFont" size="19" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mayo Clinic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJz-7d-AK8">
+                                <rect key="frame" x="16" y="426.5" width="81" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="lev-qM-U85"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mpE-4r-cSf">
+                                <rect key="frame" x="16" y="442.5" width="343" height="89"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Being assertive is a core communication skill. Assertiveness can help you express yourself effectively and stand up for your point of view, while also respecting the rights and beliefs of others. Here are some tips to help you become more assertive:</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="16" name=".SFNS-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mph-Hr-Ngx">
+                                <rect key="frame" x="29" y="531.5" width="144" height="86.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="6G8-r5-uuz"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="1. Assess your style 2. Use &quot;I&quot; statements 3. Practice saying no  4. Rehearse what you want to say ">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="clipping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dw5-Rv-7fJ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="RIy-4R-acr" firstAttribute="bottom" secondItem="Dw5-Rv-7fJ" secondAttribute="bottom" id="6gs-Q9-eTj"/>
-                            <constraint firstItem="RIy-4R-acr" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" id="RMG-ye-cPx"/>
+                            <constraint firstItem="ntH-DG-jgR" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" id="5dl-K8-88L"/>
+                            <constraint firstItem="ntH-DG-jgR" firstAttribute="top" secondItem="jST-Kc-qxa" secondAttribute="bottom" constant="14" id="6on-Ha-2gp"/>
+                            <constraint firstItem="mpE-4r-cSf" firstAttribute="top" secondItem="OJz-7d-AK8" secondAttribute="bottom" id="8Gd-jJ-eWd"/>
+                            <constraint firstItem="UoD-GS-f3y" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" constant="16" id="Hnh-Jk-FQ1"/>
+                            <constraint firstItem="OJz-7d-AK8" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" constant="16" id="IAV-tb-Psy"/>
+                            <constraint firstItem="mph-Hr-Ngx" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" constant="29" id="Ily-1G-sci"/>
+                            <constraint firstItem="jST-Kc-qxa" firstAttribute="top" secondItem="Dw5-Rv-7fJ" secondAttribute="top" constant="29" id="L2c-bg-tkU"/>
+                            <constraint firstItem="OJz-7d-AK8" firstAttribute="firstBaseline" secondItem="UoD-GS-f3y" secondAttribute="baseline" constant="20" symbolType="layoutAnchor" id="NVX-CM-tH9"/>
+                            <constraint firstItem="mpE-4r-cSf" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" constant="16" id="Rlt-ud-1MO"/>
+                            <constraint firstItem="UoD-GS-f3y" firstAttribute="top" secondItem="ntH-DG-jgR" secondAttribute="bottom" constant="13" id="V5x-5l-9SQ"/>
+                            <constraint firstItem="jST-Kc-qxa" firstAttribute="leading" secondItem="Dw5-Rv-7fJ" secondAttribute="leading" constant="16" id="kT6-rI-3TY"/>
+                            <constraint firstItem="ntH-DG-jgR" firstAttribute="centerX" secondItem="BTf-2S-ebP" secondAttribute="centerX" id="ktg-KL-8j3"/>
+                            <constraint firstItem="Dw5-Rv-7fJ" firstAttribute="trailing" secondItem="mpE-4r-cSf" secondAttribute="trailing" constant="16" id="rs1-83-2HY"/>
+                            <constraint firstItem="ntH-DG-jgR" firstAttribute="trailing" secondItem="Dw5-Rv-7fJ" secondAttribute="trailing" id="toR-HU-e3c"/>
+                            <constraint firstItem="mph-Hr-Ngx" firstAttribute="top" secondItem="mpE-4r-cSf" secondAttribute="bottom" id="uTR-d8-fhy"/>
+                            <constraint firstItem="Dw5-Rv-7fJ" firstAttribute="trailing" secondItem="UoD-GS-f3y" secondAttribute="trailing" constant="16" id="uX5-LZ-bbA"/>
+                            <constraint firstItem="Dw5-Rv-7fJ" firstAttribute="bottom" secondItem="mph-Hr-Ngx" secondAttribute="bottom" id="xL1-c1-kEU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Resources" id="7wB-sx-wfF"/>
-                    <connections>
-                        <outlet property="adviceText" destination="gKk-zz-Znv" id="xbV-CO-f78"/>
-                        <outlet property="scrollView" destination="RIy-4R-acr" id="A5o-Pl-ZEA"/>
-                        <outlet property="textView" destination="1dt-r2-j8k" id="CbP-G6-kc4"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eI-u8-Jz4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -303,14 +354,27 @@
                     <view key="view" contentMode="scaleToFill" id="aIa-dp-Nag">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="6z7-jd-gch">
+                                <rect key="frame" x="0.0" y="46.5" width="375" height="574"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="574" id="gJC-GA-2id"/>
+                                    <constraint firstAttribute="width" constant="375" id="v2g-BS-gTd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bnu-Bc-8eD"/>
                         <color key="backgroundColor" name="tan"/>
+                        <constraints>
+                            <constraint firstItem="6z7-jd-gch" firstAttribute="centerY" secondItem="aIa-dp-Nag" secondAttribute="centerY" id="5uL-PR-tUN"/>
+                            <constraint firstItem="6z7-jd-gch" firstAttribute="centerX" secondItem="aIa-dp-Nag" secondAttribute="centerX" id="Uu3-Vc-FjI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Rhl-rb-M9a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1M-qi-u3B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7758" y="-635"/>
+            <point key="canvasLocation" x="7757.6000000000004" y="-635.53223388305855"/>
         </scene>
         <!--Custom Tab Bar Controller-->
         <scene sceneID="vfa-Y2-3hV">
@@ -443,11 +507,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vc6-Sd-LyV">
-                                <rect key="frame" x="90.5" y="536" width="194" height="30"/>
+                                <rect key="frame" x="100.5" y="536" width="174" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="I want to drink responsibly">
+                                <state key="normal" title="I want to limit my drinks">
                                     <color key="titleColor" red="0.41164588930000001" green="0.45002871750000001" blue="0.68237948420000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
@@ -753,14 +817,12 @@
         <image name="play.circle" catalog="system" width="128" height="121"/>
         <image name="pong" width="750" height="1334"/>
         <image name="prefVC" width="750" height="1334"/>
+        <image name="profile" width="750" height="1334"/>
         <image name="scenemidterm" width="750" height="1334"/>
         <image name="welcomeVC" width="375" height="667"/>
         <namedColor name="tan">
             <color red="0.89411764705882357" green="0.83921568627450982" blue="0.792156862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

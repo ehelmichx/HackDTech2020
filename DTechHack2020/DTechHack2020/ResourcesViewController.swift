@@ -10,14 +10,12 @@ import UIKit
 
 class ResourcesViewController: UIViewController {
 
-    @IBOutlet weak var textView: UIView!
-    @IBOutlet weak var adviceText: UITextView!
-    @IBOutlet weak var scrollView: UIScrollView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        adviceText.text = ""
+        
     }
     
 
