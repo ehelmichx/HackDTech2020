@@ -20,6 +20,8 @@
 		EC8D530524C39D3600C2F40D /* OnBoarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530424C39D3600C2F40D /* OnBoarding3.swift */; };
 		EC8D530724C39D4E00C2F40D /* OnBoarding4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530624C39D4E00C2F40D /* OnBoarding4.swift */; };
 		EC8D530B24C3A4B900C2F40D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530A24C3A4B900C2F40D /* CustomTabBarController.swift */; };
+		EC8D530D24C3F6A800C2F40D /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530C24C3F6A800C2F40D /* HomeScreenViewController.swift */; };
+		EC8D530F24C3F82B00C2F40D /* CPSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D530E24C3F82B00C2F40D /* CPSceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		EC8D530424C39D3600C2F40D /* OnBoarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding3.swift; sourceTree = "<group>"; };
 		EC8D530624C39D4E00C2F40D /* OnBoarding4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding4.swift; sourceTree = "<group>"; };
 		EC8D530A24C3A4B900C2F40D /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		EC8D530C24C3F6A800C2F40D /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		EC8D530E24C3F82B00C2F40D /* CPSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPSceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				EC8D530424C39D3600C2F40D /* OnBoarding3.swift */,
 				EC8D530624C39D4E00C2F40D /* OnBoarding4.swift */,
 				EC8D530A24C3A4B900C2F40D /* CustomTabBarController.swift */,
+				EC8D530C24C3F6A800C2F40D /* HomeScreenViewController.swift */,
+				EC8D530E24C3F82B00C2F40D /* CPSceneViewController.swift */,
 			);
 			path = DTechHack2020;
 			sourceTree = "<group>";
@@ -161,9 +167,11 @@
 			files = (
 				3BFFC54C24C3C8B70047E1B2 /* ResourcesViewController.swift in Sources */,
 				EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */,
+				EC8D530F24C3F82B00C2F40D /* CPSceneViewController.swift in Sources */,
 				EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */,
 				EC7C0CF624C3697E0042292F /* WelcomeScreen.swift in Sources */,
 				EC8D530724C39D4E00C2F40D /* OnBoarding4.swift in Sources */,
+				EC8D530D24C3F6A800C2F40D /* HomeScreenViewController.swift in Sources */,
 				EC7C0CF224C3697E0042292F /* AppDelegate.swift in Sources */,
 				EC7C0CF424C3697E0042292F /* SceneDelegate.swift in Sources */,
 				EC8D530524C39D3600C2F40D /* OnBoarding3.swift in Sources */,
