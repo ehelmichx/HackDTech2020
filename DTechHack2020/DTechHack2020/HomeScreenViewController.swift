@@ -10,21 +10,34 @@ import UIKit
 
 class HomeScreenViewController: UIViewController {
 
+
+
+    
     override func viewDidLoad() {
+
         super.viewDidLoad()
+            
+        }
 
         // Do any additional setup after loading the view.
-    }
+
     
+    @IBAction func altCollegeScenarioButton(_ sender: Any) {
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        storyBoard.instantiateViewController(withIdentifier: "prefViewController") as! prefViewController
+//        self.present(nextViewController, animated:true, completion:nil)
+//        nextViewController.modalPresentationStyle = .fullScreen
+        
+    }
     @IBAction func CollegeScenarioButton(_ sender: Any) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
-        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "CPSceneViewController") as! CPSceneViewController
+        let nextViewController = storyBoard.instantiateViewController(withIdentifier: "prefViewController") as! prefViewController
 //        self.present(nextViewController, animated:true, completion:nil)
 //        nextViewController.modalPresentationStyle = .fullScreen
         self.navigationController!.pushViewController(nextViewController, animated: true)
-
-        
     }
+    
+    
     
     /*
     // MARK: - Navigation

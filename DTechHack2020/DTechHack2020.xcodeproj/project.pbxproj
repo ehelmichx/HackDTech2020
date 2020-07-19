@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BCC74FA24C401CE0035201B /* prefViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC74F924C401CE0035201B /* prefViewController.swift */; };
+		3BCC74FC24C411CE0035201B /* PongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC74FB24C411CE0035201B /* PongViewController.swift */; };
+		3BCC74FE24C411DE0035201B /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC74FD24C411DE0035201B /* BarViewController.swift */; };
+		3BCC750024C411EB0035201B /* DanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC74FF24C411EB0035201B /* DanceViewController.swift */; };
+		3BCC750224C411F80035201B /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC750124C411F80035201B /* FinishViewController.swift */; };
 		3BFFC54C24C3C8B70047E1B2 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFFC54B24C3C8B70047E1B2 /* ResourcesViewController.swift */; };
 		EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581624C37C390056BABF /* CustomPageViewController.swift */; };
 		EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61581824C37C8A0056BABF /* OnBoarding1.swift */; };
@@ -25,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BCC74F924C401CE0035201B /* prefViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prefViewController.swift; sourceTree = "<group>"; };
+		3BCC74FB24C411CE0035201B /* PongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongViewController.swift; sourceTree = "<group>"; };
+		3BCC74FD24C411DE0035201B /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		3BCC74FF24C411EB0035201B /* DanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceViewController.swift; sourceTree = "<group>"; };
+		3BCC750124C411F80035201B /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
 		3BFFC54B24C3C8B70047E1B2 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		EC61581624C37C390056BABF /* CustomPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
 		EC61581824C37C8A0056BABF /* OnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1.swift; sourceTree = "<group>"; };
@@ -78,6 +88,11 @@
 				EC7C0CF324C3697E0042292F /* SceneDelegate.swift */,
 				EC7C0CF524C3697E0042292F /* WelcomeScreen.swift */,
 				EC7C0CF724C3697E0042292F /* Main.storyboard */,
+				3BCC74FB24C411CE0035201B /* PongViewController.swift */,
+				3BCC74FD24C411DE0035201B /* BarViewController.swift */,
+				3BCC74FF24C411EB0035201B /* DanceViewController.swift */,
+				3BCC750124C411F80035201B /* FinishViewController.swift */,
+				3BCC74F924C401CE0035201B /* prefViewController.swift */,
 				3BFFC54B24C3C8B70047E1B2 /* ResourcesViewController.swift */,
 				EC7C0CFA24C369850042292F /* Assets.xcassets */,
 				EC7C0CFC24C369850042292F /* LaunchScreen.storyboard */,
@@ -166,8 +181,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFFC54C24C3C8B70047E1B2 /* ResourcesViewController.swift in Sources */,
+				3BCC74FE24C411DE0035201B /* BarViewController.swift in Sources */,
 				EC61581724C37C390056BABF /* CustomPageViewController.swift in Sources */,
 				EC8D530F24C3F82B00C2F40D /* CPSceneViewController.swift in Sources */,
+				3BCC74FA24C401CE0035201B /* prefViewController.swift in Sources */,
 				EC61581924C37C8A0056BABF /* OnBoarding1.swift in Sources */,
 				EC7C0CF624C3697E0042292F /* WelcomeScreen.swift in Sources */,
 				EC8D530724C39D4E00C2F40D /* OnBoarding4.swift in Sources */,
@@ -176,7 +193,10 @@
 				EC7C0CF424C3697E0042292F /* SceneDelegate.swift in Sources */,
 				EC8D530524C39D3600C2F40D /* OnBoarding3.swift in Sources */,
 				EC61581B24C37C990056BABF /* OnBoarding2.swift in Sources */,
+				3BCC74FC24C411CE0035201B /* PongViewController.swift in Sources */,
+				3BCC750024C411EB0035201B /* DanceViewController.swift in Sources */,
 				EC8D530B24C3A4B900C2F40D /* CustomTabBarController.swift in Sources */,
+				3BCC750224C411F80035201B /* FinishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
