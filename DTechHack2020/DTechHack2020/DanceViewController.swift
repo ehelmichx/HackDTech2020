@@ -10,8 +10,20 @@ import UIKit
 
 class DanceViewController: UIViewController {
 
+    @IBOutlet weak var girl1: UIImageView!
+    
+    func moveLeft(view: UIView){
+        view.center.x -= 200
+    }
+    @IBAction func movement(){
+       let duration: Double = 3.0
+        UIView.animate(withDuration: duration){
+            self.moveLeft(view: self.girl1)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        movement()
 
         // Do any additional setup after loading the view.
     }
